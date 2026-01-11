@@ -28,4 +28,11 @@ export class ApplicationsService {
       (application) => application.jobId === jobId,
     );
   }
+
+  findByCandidate(candidateId: number) {
+  return this.applications.filter(
+    (application) => application.candidateId === candidateId,
+  );
+}
+
 }
