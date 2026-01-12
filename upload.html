@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Upload candidate file</title>
+  </head>
+  <body>
+    <h2>Upload file for candidate #1</h2>
+
+    <form
+      action="http://localhost:3000/files/candidate/1"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="file" />
+      <br /><br />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
