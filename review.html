@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Add review for application #1</h2>
+
+    <form
+      action="http://localhost:3000/applications/1/reviews"
+      method="POST"
+    >
+      <input name="author" placeholder="Your name" /><br /><br />
+      <input name="rating" type="number" placeholder="Rating (1-5)" /><br /><br />
+      <textarea name="comment" placeholder="Comment"></textarea><br /><br />
+      <button type="submit">Send review</button>
+    </form>
+  </body>
+</html>
