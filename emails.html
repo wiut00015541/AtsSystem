@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Send test email</h2>
+
+    <form
+      action="http://localhost:3000/emails/send"
+      method="POST"
+    >
+      <input name="to" placeholder="to@example.com" /><br /><br />
+      <input name="subject" placeholder="Subject" /><br /><br />
+      <textarea name="text" placeholder="Message"></textarea><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
